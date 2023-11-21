@@ -7,7 +7,7 @@
 ##### [Tableau Dashboard](https://public.tableau.com/app/profile/hanzian.ngoran/viz/CyclisticBike_17000644833820/Dashboard7#1).
 
 ## Analysis Overview
-
+In 2016, Cyclistic launched a successful bike-share offering. The company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members.
 
 ## Analysis Process
 
@@ -122,9 +122,8 @@ bike_data %>%
   summarise(number_of_rides = n() ,average_duration = mean(ride_length)) %>% 
   arrange(member_casual, weekday)
 ```
-<p align="center">
-    <img src="(https://github.com/Hanzian/Cyclistic-Bike-Share-Analysis-/blob/main/number_ride_by_rider.png)"> 
-</p>
+![number of rides by rider type](https://github.com/Hanzian/Cyclistic-Bike-Share-Analysis-/blob/main/number_ride_by_rider.png)
+
 
 Analyse the average duration
 ```
@@ -135,6 +134,6 @@ bike_data %>%
             ,average_duration = mean(ride_length)) %>% 
   arrange(member_casual, weekday)  
 ```
-
+![average duration](https://github.com/Hanzian/Cyclistic-Bike-Share-Analysis-/blob/main/average_duration.png)
 
 

@@ -125,6 +125,7 @@ bike_data %>%
 <p align="center">
     <img src="(https://github.com/Hanzian/Cyclistic-Bike-Share-Analysis-/blob/main/number_ride_by_rider.png)"> 
 </p>
+
 Analyse the average duration
 ```
 bike_data %>% 

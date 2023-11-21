@@ -136,4 +136,10 @@ bike_data %>%
 ```
 ![average duration](https://github.com/Hanzian/Cyclistic-Bike-Share-Analysis-/blob/main/average_duration.png)
 
+### Step 5: Share
+
+[Tableau Dasbord Analysis](https://public.tableau.com/app/profile/hanzian.ngoran/viz/CyclisticBike_17000644833820/Dashboard7#1)
+
+![Tableau](https://github.com/Hanzian/Cyclistic-Bike-Share-Analysis-/blob/main/Dashboard%207.png)
+
 
